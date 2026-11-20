@@ -1,0 +1,56 @@
+{
+  "threshold": 0.8,
+  "extraction_accuracy": 0.9473684210526315,
+  "match_precision": 1.0,
+  "match_recall": 0.5882352941176471,
+  "additional_metrics": {
+    "true_positives": 10,
+    "false_positives": 0,
+    "false_negatives": 7,
+    "review_rate": 0.5789473684210527,
+    "accepted_match_precision": 1.0,
+    "matching_precision": 1.0,
+    "matching_recall": 0.5882352941176471,
+    "evaluated_rfq_count": 3,
+    "unscored_rfqs": [
+      "rfq_04_handwritten.png",
+      "rfq_05_forwarded_chain.txt",
+      "rfq_06_messy.txt"
+    ],
+    "threshold_comparison": [
+      {
+        "threshold": 0.7,
+        "extraction_accuracy": 0.9473684210526315,
+        "match_precision": 1.0,
+        "match_recall": 0.5882352941176471,
+        "true_positives": 10,
+        "false_positives": 0,
+        "false_negatives": 7,
+        "review_rate": 0.5789473684210527,
+        "accepted_match_precision": 1.0
+      },
+      {
+        "threshold": 0.8,
+        "extraction_accuracy": 0.9473684210526315,
+        "match_precision": 1.0,
+        "match_recall": 0.5882352941176471,
+        "true_positives": 10,
+        "false_positives": 0,
+        "false_negatives": 7,
+        "review_rate": 0.5789473684210527,
+        "accepted_match_precision": 1.0
+      },
+      {
+        "threshold": 0.9,
+        "extraction_accuracy": 0.9473684210526315,
+        "match_precision": 1.0,
+        "match_recall": 0.5882352941176471,
+        "true_positives": 10,
+        "false_positives": 0,
+        "false_negatives": 7,
+        "review_rate": 0.5789473684210527,
+        "accepted_match_precision": 1.0
+      }
+    ]
+  }
+}

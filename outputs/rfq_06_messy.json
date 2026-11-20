@@ -1,0 +1,100 @@
+{
+  "rfq_id": "rfq_06_messy",
+  "customer_id": "C1008",
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "bolts 3/8 x 1 1/2 gr5 - 300 (we usually get boxes)",
+      "quantity": 300.0,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "missing_unit",
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    },
+    {
+      "line": 2,
+      "as_written": "nitrile gloves L - a few boxes",
+      "quantity": null,
+      "unit": "BOX",
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "ambiguous_quantity",
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    },
+    {
+      "line": 3,
+      "as_written": "NF-778812 x 4 (whatever you have thats equivalent)",
+      "quantity": 4.0,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "missing_unit",
+        "ambiguous_equivalent",
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    },
+    {
+      "line": 4,
+      "as_written": "6205 bearings sealed qty 24",
+      "quantity": 24.0,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "missing_unit",
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    },
+    {
+      "line": 5,
+      "as_written": "forklift tires 18x7-8 x4",
+      "quantity": 4.0,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "missing_unit",
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    },
+    {
+      "line": 6,
+      "as_written": "o-rings 214 buna",
+      "quantity": null,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "missing_quantity",
+        "missing_unit",
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    }
+  ],
+  "customer_name": "Granite Peak Mining",
+  "non_item_rows": []
+}

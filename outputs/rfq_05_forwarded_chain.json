@@ -1,0 +1,54 @@
+{
+  "rfq_id": "rfq_05_forwarded_chain",
+  "customer_id": "C1009",
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "- 3 HP TEFC motor, 1800 rpm, 3 phase - qty 2",
+      "quantity": 2.0,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": 0.0,
+      "needs_review": true,
+      "flags": [
+        "missing_unit",
+        "revised",
+        "revision_requires_review"
+      ],
+      "note": "Forwarded revision: make the motor 5HP not 3"
+    },
+    {
+      "line": 2,
+      "as_written": "- 2\" flange gaskets 150# - qty 20",
+      "quantity": 40.0,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": 0.0,
+      "needs_review": true,
+      "flags": [
+        "missing_unit",
+        "revised",
+        "revision_requires_review"
+      ],
+      "note": "Forwarded revision: bump the gaskets to 40"
+    },
+    {
+      "line": 3,
+      "as_written": "- food grade grease cartridges - 3 cases",
+      "quantity": 3.0,
+      "unit": "CS",
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    }
+  ],
+  "customer_name": "Lakeshore Foods",
+  "non_item_rows": []
+}

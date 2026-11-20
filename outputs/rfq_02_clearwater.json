@@ -1,0 +1,79 @@
+{
+  "rfq_id": "rfq_02_clearwater",
+  "customer_id": "C1007",
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "APX-BB-6206ZZ | Ball bearing 6206 ZZ shielded | Qty 12 EA",
+      "quantity": 12.0,
+      "unit": "EA",
+      "ridgeline_part_number": "RL178907",
+      "match_method": "cross_reference",
+      "confidence": 1.0,
+      "needs_review": false,
+      "flags": []
+    },
+    {
+      "line": 2,
+      "as_written": "APX-VB-B55 | V-belt B55 | Qty 4 EA",
+      "quantity": 4.0,
+      "unit": "EA",
+      "ridgeline_part_number": "RL125203",
+      "match_method": "cross_reference",
+      "confidence": 1.0,
+      "needs_review": false,
+      "flags": []
+    },
+    {
+      "line": 3,
+      "as_written": "APX-HF-JIC08-90 | JIC -08 x 1/2 NPT 90 elbow | Qty 25 EA",
+      "quantity": 25.0,
+      "unit": "EA",
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": 0.0,
+      "needs_review": true,
+      "flags": [
+        "inactive_product"
+      ]
+    },
+    {
+      "line": 4,
+      "as_written": "APX-FL-HE10 | Hyd. return element 10 micron cellulose | Qty 6 EA",
+      "quantity": 6.0,
+      "unit": "EA",
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    },
+    {
+      "line": 5,
+      "as_written": "APX-GL-A4-L | Cut resistant glove A4, Large | Qty 12 PR",
+      "quantity": 12.0,
+      "unit": "PR",
+      "ridgeline_part_number": "RL131850",
+      "match_method": "cross_reference",
+      "confidence": 1.0,
+      "needs_review": false,
+      "flags": []
+    },
+    {
+      "line": 6,
+      "as_written": "APX-BV-SS100 | 1\" ball valve, 316 SS, full port | Qty 3 EA",
+      "quantity": 3.0,
+      "unit": "EA",
+      "ridgeline_part_number": "RL185180",
+      "match_method": "cross_reference",
+      "confidence": 1.0,
+      "needs_review": false,
+      "flags": []
+    }
+  ],
+  "customer_name": "Clearwater Bottling Co.",
+  "non_item_rows": []
+}

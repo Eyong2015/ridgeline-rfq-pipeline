@@ -1,0 +1,76 @@
+{
+  "rfq_id": "rfq_01_email",
+  "customer_id": "C1003",
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "- 20 ea 6204-2RS bearings",
+      "quantity": 20.0,
+      "unit": "EA",
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    },
+    {
+      "line": 2,
+      "as_written": "- 10 A42 v-belts",
+      "quantity": 10.0,
+      "unit": null,
+      "ridgeline_part_number": "RL112676",
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "missing_unit"
+      ]
+    },
+    {
+      "line": 3,
+      "as_written": "- RL159429 x 3",
+      "quantity": 3.0,
+      "unit": null,
+      "ridgeline_part_number": "RL159429",
+      "match_method": "ridgeline_part_number",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "missing_unit"
+      ]
+    },
+    {
+      "line": 4,
+      "as_written": "- 1/2-13 x 2\" grade 8 hex bolts, 2 boxes",
+      "quantity": 2.0,
+      "unit": "BOX",
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 1.0,
+      "needs_review": true,
+      "flags": [
+        "competing_candidates"
+      ],
+      "note": "Description candidates are too close to distinguish confidently."
+    },
+    {
+      "line": 5,
+      "as_written": "- Same grease cartridges as last order, 2 cases",
+      "quantity": 2.0,
+      "unit": "CS",
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": 0.0,
+      "needs_review": true,
+      "flags": [
+        "previous_order_unavailable"
+      ],
+      "note": "The referenced prior order is unavailable; no product was inferred."
+    }
+  ],
+  "customer_name": "Mesa Fabrication",
+  "non_item_rows": []
+}

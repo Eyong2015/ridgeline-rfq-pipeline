@@ -1,0 +1,109 @@
+{
+  "rfq_id": "rfq_03_tricounty",
+  "customer_id": "C1010",
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "NF-220418 | 3/4 brass ball valve FP | Qty 15 | EA",
+      "quantity": 15.0,
+      "unit": "EA",
+      "ridgeline_part_number": "RL134741",
+      "match_method": "cross_reference",
+      "confidence": 1.0,
+      "needs_review": false,
+      "flags": []
+    },
+    {
+      "line": 2,
+      "as_written": "NF-220420 | 1\" brass ball valve FP | Qty 10 | EA",
+      "quantity": 10.0,
+      "unit": "EA",
+      "ridgeline_part_number": "RL179507",
+      "match_method": "cross_reference",
+      "confidence": 1.0,
+      "needs_review": false,
+      "flags": []
+    },
+    {
+      "line": 3,
+      "as_written": "same as above but 1/2\" | Qty 10 | EA | same spec as line 2",
+      "quantity": 10.0,
+      "unit": "EA",
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": 0.0,
+      "needs_review": true,
+      "flags": [
+        "ambiguous_reference",
+        "reference_requires_review"
+      ],
+      "note": "The request refers to an earlier line; its details were not inferred."
+    },
+    {
+      "line": 4,
+      "as_written": "NF-118203 | 2\" flange gasket 150# | Qty 40 | EA",
+      "quantity": 40.0,
+      "unit": "EA",
+      "ridgeline_part_number": "RL118373",
+      "match_method": "cross_reference",
+      "confidence": 1.0,
+      "needs_review": false,
+      "flags": []
+    },
+    {
+      "line": 5,
+      "as_written": "NF-118204 | 3\" flange gasket 150# | Qty 40 | EA | 1/16 thk",
+      "quantity": 40.0,
+      "unit": "EA",
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": 0.0,
+      "needs_review": true,
+      "flags": [
+        "cross_reference_caveat"
+      ],
+      "note": "Cross-reference requires review: check thickness."
+    },
+    {
+      "line": 6,
+      "as_written": "NF-310077 | AW46 hyd oil 5 gal | Qty 6 | PAIL",
+      "quantity": 6.0,
+      "unit": "PAIL",
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": 0.0,
+      "needs_review": true,
+      "flags": [
+        "unit_mismatch"
+      ],
+      "note": "Requested and catalog units differ; packaging was not assumed equivalent."
+    },
+    {
+      "line": 7,
+      "as_written": "NF-505512 | 20x20x2 pleated filter MERV 8 | Qty 4 | CS | cs of 12",
+      "quantity": 4.0,
+      "unit": "CS",
+      "ridgeline_part_number": "RL149009",
+      "match_method": "cross_reference",
+      "confidence": 1.0,
+      "needs_review": false,
+      "flags": []
+    },
+    {
+      "line": 8,
+      "as_written": "NF-999120 | Chlorine residual test kit | Qty 2 | EA | if available",
+      "quantity": 2.0,
+      "unit": "EA",
+      "ridgeline_part_number": null,
+      "match_method": "description",
+      "confidence": 0.48,
+      "needs_review": true,
+      "flags": [
+        "conditional",
+        "low_confidence"
+      ]
+    }
+  ],
+  "customer_name": "Tri-County Water District",
+  "non_item_rows": []
+}
