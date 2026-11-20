@@ -1,0 +1,8 @@
+
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+ridgeline-quote-desk.zip
+.pytest_cache/
